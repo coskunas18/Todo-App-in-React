@@ -1,0 +1,7 @@
+.input-wrapper{
+    @apply w-full mt-4;
+}
+
+.input-wrapper > input {
+    @apply w-full rounded outline-none border-none p-2 text-gray-600;
+}

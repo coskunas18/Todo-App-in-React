@@ -1,0 +1,12 @@
+.item-content-wrapper{
+    @apply absolute bg-white shadow-2xl w-full p-2 text-gray-600 flex flex-col rounded;
+    min-height:450px;
+    max-height:500px;
+    top150%:
+}
+
+.content{
+    @apply overflow-auto;
+    min-height:450px;
+    max-height:500px;
+}

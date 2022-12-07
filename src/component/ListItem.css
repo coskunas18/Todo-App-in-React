@@ -1,0 +1,17 @@
+.list-item{
+    @apply flex text-gray-600 font-normal p-2 items-center cursor-pointer rounded-sm justify-between;
+}
+
+.remove-list-item{
+    @apply text-red-600 text-xs;
+    font-size:15px;
+}
+
+.remove-list-item:hover{
+  @apply text-red-900 font-bold;
+  font-size:20px;
+}
+
+.completed{
+  @apply line-through font-bold text-gray-700;
+}
